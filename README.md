@@ -27,9 +27,9 @@ Include the following at the top of your project.
 
 ## How to Connect to it!
 
-Then if developing you may connect either using SSH (default U: root P: particle), or Docker Attach.
+Docker exec.
 
-    docker attach <name-of-proccess>
+    docker exec -i -t <instance-id> bash
     
 OR
 
